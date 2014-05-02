@@ -143,8 +143,8 @@ body {
 /* Services */
 
 .services {
-  text-align: center;
-  clear: both;
+  text-align: auto;
+/*  clear: both;*/
   font-size: 1.5em;
   font-family: 'Josefin Sans', 'sans-serif'; 
   background: #566B4C;
@@ -217,15 +217,18 @@ i.service-icon {
   clear: both;
   font-size: 1.5em;
   font-family: 'Josefin Sans', 'sans-serif'; 
+}
 
-/* Map */
+/* location/map */
 
 .location {
   text-align: center;
-  padding-bottom: 15px;
   clear: both;
   font-size: 1.5em;
   font-family: 'Josefin Sans', 'sans-serif'; 
+  background: #ffffff;
+  padding: 50px 0;
+  color: #566B4C;
 }
 
 .map {
