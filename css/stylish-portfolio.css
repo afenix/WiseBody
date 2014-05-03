@@ -4,6 +4,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  padding-bottom: 70px;
 }
 
 .navbar-brand {
@@ -274,12 +275,18 @@ i.service-icon {
   font-size: 1.5em;
   font-family: 'Josefin Sans', 'sans-serif'; 
   margin-top: 50px;
+}
 
 /* Footer */
 
-footer {
-  padding: 100px 0;
+.footer {
+  padding: 50px 0;
+  font-size: .65em;
+  clear: both;
+  display: inline;
 }
+
+
 
 .top-scroll {
   margin-top: 50px;
