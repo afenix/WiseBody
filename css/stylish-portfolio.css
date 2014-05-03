@@ -6,7 +6,15 @@ body {
   width: 100%;
 }
 
-.sidebar-nav {
+.navbar-brand {
+  font-family: 'Poiret One', cursive;
+  padding: 15px;
+  margin: 0;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.navbar-headers {
   font-family: 'Quicksand', 'sans-serif';
 }
 
@@ -28,13 +36,20 @@ body {
 }
 
 .vert-text h1 {
-  font-family: 'Josefin Sans', 'sans-serif';
-  padding: 0;
+  font-family: 'Poiret One', cursive;
+  padding: 10px;
   margin: 0;
   font-size: 4.5em;
   font-weight: 700;
 }
 
+.vert-text h2 {
+  font-family: 'Poiret One', cursive;
+  padding: 10px;
+  margin: 10px;
+  font-size: 2.5em;
+  font-weight: 700;
+}
 /* Side Menu */
 
 #sidebar-wrapper {
@@ -153,19 +168,19 @@ body {
 }
 
 .service-item {
-  font-size: 1em;
+  font-size: .85em;
   font-family: 'Josefin Sans', 'sans-serif';
   margin-bottom: 15px;
 }
 
 i.service-icon {
-  border: 3px solid #ffffff;
-  border-radius: 50%;
+  border: 2px solid #ffffff;
+  border-radius: 40%;
   display: inline-block;
-  font-size: 56px;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   vertical-align: middle; 
   text-align: center;
 }
@@ -182,6 +197,19 @@ i.service-icon {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.callout2 {
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(../img/water.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 20px
 }
 
 /* Rates */
@@ -213,16 +241,6 @@ i.service-icon {
 
 .contact {
   text-align: center;
-  padding-bottom: 15px;
-  clear: both;
-  font-size: 1.5em;
-  font-family: 'Josefin Sans', 'sans-serif'; 
-}
-
-/* location/map */
-
-.location {
-  text-align: center;
   clear: both;
   font-size: 1.5em;
   font-family: 'Josefin Sans', 'sans-serif'; 
@@ -231,13 +249,25 @@ i.service-icon {
   color: #566B4C;
 }
 
+/* location/map */
+
+.map {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Josefin Sans', 'sans-serif'; 
+  background: #ffffff;
+  padding: 50px 0;
+  color: #566B4C;
+  clear: both;
+}
+
 .map {
   height: 500px;
 }
 
 /* Resources */
 
-.resources {
+.blog {
   text-align: center;
   padding: 50px;
   clear: both;
@@ -276,15 +306,16 @@ i.scroll:hover {
   }
 
   .callout {
-	background: url(../img/callout.jpg) no-repeat center center scroll; 
+	background: url(../img/sunset-oil.jpg) no-repeat center center scroll; 
   }
 
-   .callout-2 {
-  background: url(../img/massage.jpg) no-repeat center center scroll; 
-  }
-
-  .map {
-	height: 75%;
+   .callout2 {
+  background: url(../img/water.jpg) no-repeat center center scroll; 
   }
 
 }
+
+/*CSS FOR THE BLOG*/
+
+
+
