@@ -5,11 +5,14 @@ Website designed using Bootstrap, and modified template.  Created as final exerc
 
 Features include HTML, CSS styling and [Bootstrap](http://getbootstrap.com/).
 
-Usage
------
+Installation
+----------
 
+Install WiseBody website by first cloning the repository.  
 
+$ git clone http://github.com/afenix/wisebody
 
+Copy the files into a new shiny directory.  Simply double click on wisebody.html to view the website. 
 
 
 Motivation 
