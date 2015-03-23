@@ -15,9 +15,7 @@ $ git clone http://github.com/afenix/wisebody
 Copy the files into a new shiny directory.  Simply double click on wisebody.html to view the website. 
 Clone repository and open the bank-account.html file.
 ```
-[View site here](http://htmlpreview.github.com/?https://github.com/afenix/bank-account/blob/master/bank-account.html)
-### Bug Reports:
-
+[View site here](http://htmlpreview.github.com/?https://github.com/afenix/WiseBody/blob/gh-pages/index_Stylish.html)
 
 Motivation 
 ----------
