@@ -13,16 +13,20 @@ Install WiseBody website by first cloning the repository.
 $ git clone http://github.com/afenix/wisebody
 
 Copy the files into a new shiny directory.  Simply double click on wisebody.html to view the website. 
+Clone repository and open the bank-account.html file.
+```
+[View site here](http://htmlpreview.github.com/?https://github.com/afenix/bank-account/blob/master/bank-account.html)
+### Bug Reports:
 
 
 Motivation 
 ----------
-To practice building an application using EmberJS.
+To practice building an application using HTML, CSS and bootstrap.
 
 Bug Reports
 ------------
 
-This app is a work in progress, as such it has not been fully tested.  However there are no known bugs at this time. Please do contact the author if you uncover any vermin hanging out in the code : a.fenix@icloud.com
+This website is a work in progress, as such it has not been fully tested.  However there are no known bugs at this time. Please do contact the author if you uncover any vermin hanging out in the code : a.fenix@icloud.com
 
 Author
 -----
